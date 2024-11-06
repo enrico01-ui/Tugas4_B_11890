@@ -89,4 +89,4 @@ if uploaded_file is not None:
             fig, new_cluster = scatter(model, model_name, input_data, new_point, features, color_scale, title)
             with cols[i]:
                 st.plotly_chart(fig)
-                st.markdown(f"<p style='text-align: center;>Titik dari data yang baru masuk ke dalam cluster : {new_cluster}</p>", unsafe_allow_html=True)
+                st.markdown(f"<p style='text-align: center;'>Titik dari data yang baru masuk ke dalam cluster : {new_cluster}</p>", unsafe_allow_html=True)
